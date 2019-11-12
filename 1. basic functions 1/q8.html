@@ -1,0 +1,53 @@
+<html>
+	<head>
+
+		<title>Q(8) Banner</title>
+
+		<script type="text/javascript" language="javascript">
+			
+				imgArray = new Array(4);
+ 
+				imgArray[0] = new Image;
+				imgArray[0].src = "a.png";
+
+				imgArray[1] = new Image;
+				imgArray[1].src = "b.png";
+				imgArray[2] = new Image;
+				imgArray[2].src = "c.png";
+				imgArray[3] = new Image;
+				imgArray[3].src = "d.png";
+   
+index = 0;
+	function select() {
+	index = Math.floor(Math.random() * 4);
+	document.banner.src = imgArray[index].src;
+	setTimeout("select()", 300);
+	return;
+	}
+
+			 
+
+		</script> 
+
+		 
+  
+	</head>
+	
+	 
+	<body  onload="select()">
+			
+			<img src="a.png" name="banner">
+
+
+		<h1>Java Script Q(8) Banner</h1>
+
+		 
+
+
+		 
+	 
+	</body>
+
+</html>
+		
+		 
