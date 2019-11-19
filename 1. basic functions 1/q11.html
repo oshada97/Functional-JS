@@ -1,0 +1,39 @@
+<html>
+	<head>
+
+		<title>Q(11) Drop-Down Menu </title>
+
+	 
+			 <script type="text/javascript">
+			 	
+			 	function formHandler(){
+				var URL = document.myform.newsite.options[document.myform.newsite.selectedIndex].value;
+				window.location.href = URL;
+				}
+
+			 </script>
+
+
+	</head>
+	
+	 
+	<body>
+ 
+		<h1>Java Script Q(11) Drop-Down Menu </h1>
+
+		 <form NAME="myform" class="abc">
+			<select NAME="newsite" SIZE=1 onChange="formHandler()">
+				<option VALUE="">What's up...</option>
+				<option VALUE="">----------------</option>
+				<option VALUE="http://www.cnn.com">CNN</option>
+				<option VALUE="http://www.abc.com">ABC Television</option>
+				<option VALUE="http://www.cbs.com">CBS Television</option>
+				<option VALUE="http://www.charleston.net">Post & Courier</option>
+			</select>
+		</form>
+
+	</body>
+
+</html>
+		
+		 
