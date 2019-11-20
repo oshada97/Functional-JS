@@ -1,0 +1,44 @@
+<html>
+	<head>
+
+		<title>Q(12) Scrolling message </title>
+
+	 
+			 <script type="text/javascript">
+			 	
+			 	var msg = "You may type your message right here  ";
+				function startScroller()
+				{
+				   document.scrollForm.scrolling_message.value = msg
+				   msg = msg.substring(1, msg.length) + msg.substring(0, 1)
+
+				// (ex. 150=.15 seconds).
+  					 setTimeout("startScroller()", 150)
+				}
+
+
+			 </script>
+
+
+	</head>
+	
+	<body onLoad="startScroller();">
+
+		<h1>Java Script Q(12) Scrolling message </h1>
+
+
+		<form name="scrollForm" onSubmit="return false;">
+		<!--This is the size of the text box. --> 
+		<input type="text" name="scrolling_message" value="" size="50">
+		</form>
+
+	 
+ 
+			
+		 
+
+	</body>
+
+</html>
+		
+		 
