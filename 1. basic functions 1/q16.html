@@ -1,0 +1,40 @@
+<html>
+	<head>
+
+		<title>Q(16)Display greeting based on time of day. </title>
+
+	 
+			<script type="text/javascript">
+			 
+
+				datetoday = new Date();
+
+				timenow=datetoday.getTime();
+
+				datetoday.setTime(timenow);
+				
+				thehour = datetoday.getHours();
+
+				if (thehour > 18) display = "Evening";
+				else if (thehour >12) display = "Afternoon";
+				else display = "Morning";
+
+				var greeting = ("Good " + display + "!");
+				document.write(greeting); 
+
+
+			</script>
+
+	</head>
+	
+	<body>
+
+		<h1>Java Script Q(16)Display greeting based on time of day.</h1>
+
+		 
+ 
+	</body>
+
+</html>
+		
+		 
