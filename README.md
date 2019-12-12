@@ -4,4 +4,6 @@ Functional JS is a recap of javascript functions for beginners.
 * CSS
 * JAVASCRIPT
 
+#############
+* jquerry
 * doc
